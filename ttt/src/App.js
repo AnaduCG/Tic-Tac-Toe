@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './App.css';
 /*
 import logo from './logo.svg';
 import './App.css';
@@ -32,11 +33,11 @@ function Square() {
     setValue('X');
   }
   return (
-    <button
+    <div
       className="square"
       onClick={handleClick}
     >{value}
-    </button>
+    </div>
   );
 }
 

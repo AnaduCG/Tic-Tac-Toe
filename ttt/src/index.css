@@ -11,8 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* 
-.square{
 
+.board-row {
+  display: grid;
+  grid-template-columns: repeat(3, 40px);
 }
- */
+
+.square {
+  width: 32px;
+  height: 32px;
+  background-color: silver;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
